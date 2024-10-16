@@ -53,6 +53,7 @@ entry_btn = ttk.Button(frame, text="Add", command=add_to_list)
 entry_btn.grid(row=0, column=1)
 
 # let add a listbox that will hold all the values that we have added
+# ttk is not availbe for listbox thats why did not add it here
 text_list = tk.Listbox(frame)
 
 text_list.grid(row=1,column=0, sticky="nsew")
