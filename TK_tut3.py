@@ -58,8 +58,6 @@ text_list = tk.Listbox(frame)
 # text_list.grid(row=1,column=0, sticky="ew")
 text_list.grid(row=1,column=0, sticky="nsew")
 
-# now let call a function that will add stuffs to the list once Add button is clicked
-
 
 
 root.mainloop()
